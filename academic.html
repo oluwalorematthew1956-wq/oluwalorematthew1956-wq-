@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--prettier-ignore-->
+    <meta charset="UTF-8">
+    <!--prettier-ignore-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--prettier-ignore-->
+    <meta name="author" content="Oluwalore Matthew">
+    <!--prettier-ignore-->
+    <meta name="discription" content="Academic Planner">
+    <title>Academic Planner | Oluwalore Matthew</title>
+    <!--prettier-ignore-->
+    <link rel="icon" href="img/html.png" typle="image/x-icon">
+    <!--prettier-ignore-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>My Academic Journey</h1>
+      <p>Student at MIVA Open University</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>My Courses This Semester</h2>
+        <p>These are the courses I am taking at MIVA Open University.</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Course Code</th>
+              <th scope="col">Course Title</th>
+              <th scope="col">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">COS 102</th>
+              <td>Problem Solving</td>
+              <td>Completed</td>
+            </tr>
+            <tr>
+              <th scope="row">COS 106</th>
+              <td>Introduction to Web Technologies</td>
+              <td>In Progress</td>
+            </tr>
+            <tr>
+              <th scope="row">GST 122</th>
+              <td>Communication Skills in English II</td>
+              <td>Completed</td>
+            </tr>
+            <tr>
+              <th scope="row">COS 111</th>
+              <td>Certificate in Computing I</td>
+              <td>In Progress</td>
+            </tr>
+            <tr>
+              <th scope="row">MTH 102</th>
+              <td>Elementry Mathematic II</td>
+              <td>In progress</td>
+            </tr>
+            <tr>
+              <th scope="row">PHY 102</th>
+              <td>General Physics II</td>
+              <td>In progress</td>
+            </tr>
+            <tr>
+              <th scope="row">PHY 108</th>
+              <td>General Physics Pratical</td>
+              <td>In progress</td>
+            </tr>
+            <tr>
+              <th scope="row">GST 112</th>
+              <td>Nigerian People and Culture</td>
+              <td>Completed</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <h3>My Academic Planner</h3>
+      <p id="taskCount">Total tasks: 0</p>
+
+      <p>
+        <label for="taskInput">Add New Task:</label>
+        <input
+          type="text"
+          id="taskInput"
+          placeholder="e.g. Read COS 106 notes"
+        />
+        <button type="button" id="addTaskBtn">Add Task</button>
+      </p>
+
+      <ul id="taskList"></ul>
+    </main>
+
+    <footer>
+      <p>© 2026 Oluwalore Tijesu Matthew - Student Portfolio</p>
+      <p><a href="#">↑ Back to Top</a></p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
