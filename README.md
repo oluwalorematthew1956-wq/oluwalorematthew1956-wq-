@@ -35,3 +35,4 @@ My personal portfolio website showing my skills and projects.
 
 ### 📫 Connect With Me
 - GitHub: https://github.com/oluwalorematthew1956-wq
+- 📞 WhatsApp / Email: [2347054823918 / oluwalorematthew1956@gmail.com]
